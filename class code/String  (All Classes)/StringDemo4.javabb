@@ -1,0 +1,21 @@
+
+class StringDemo {
+	public static void main(String [] args) {
+		int arr[]={10,20,30};
+		System.out.println(arr);
+		Integer arr1[]={10,20,30};
+		int arr2[]={1000,2000,3000};
+		Integer arr3[]={1000,2000,3000};
+		System.out.println(System.identityHashCode(arr));
+   		
+		System.out.println(System.identityHashCode(arr));
+		System.out.println(System.identityHashCode(arr1));
+		System.out.println(System.identityHashCode(arr2));
+		System.out.println(System.identityHashCode(arr3));
+		System.out.println(System.identityHashCode(arr1));
+		System.out.println(System.identityHashCode(arr2));
+		System.out.println(System.identityHashCode(arr3));
+
+      
+       }
+}
